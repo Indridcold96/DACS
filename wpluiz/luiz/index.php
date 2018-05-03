@@ -39,6 +39,16 @@
 			align-self: center;
 		}
 		
+		.divcomments {
+			
+			background-color: rgba(255,255,255,8);
+			margin: center;
+			padding: 10px;
+			width: 550px;
+			min-height:300px;
+			align-self: center;
+		}
+		
 		body{
 			background-image: url(<?php echo "$dir/mhwbackground.jpg" ?>);
 		}
