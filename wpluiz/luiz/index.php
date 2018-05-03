@@ -21,7 +21,7 @@
 			font: 10pt Arial;
 			font-weight: bold;
 			color: white;
-			background-color: #00cc00;
+			background-color: #7CFC00;
 			padding: 5px;
 			display: block;
 			position: relative;
@@ -75,7 +75,7 @@
 		</style>
 	</head>
 	<body>
-	<h1 style="color:GoldenRod ;" >Bem Vindo, o pequeno Rathalos vai te guiar</h1>
+	<h1 style="color:Silver ;" >Bem Vindo, o pequeno Rathalos vai te guiar</h1>
 		<div class="main">
 			<div>
 				<?php
