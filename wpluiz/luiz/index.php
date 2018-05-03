@@ -59,6 +59,7 @@
 
 		h1 {
 			font-family: monsterhunterfont;
+			font-size: 20px;
 		}
 		.main {
 			display: -webkit-flex;
@@ -74,7 +75,7 @@
 		</style>
 	</head>
 	<body>
-	<h1 style="color:Silver ;" >Bem Vindo, o pequeno Rathalos vai te guiar</h1>
+	<h1 style="color:GoldenRod ;" >Bem Vindo, o pequeno Rathalos vai te guiar</h1>
 		<div class="main">
 			<div>
 				<?php
