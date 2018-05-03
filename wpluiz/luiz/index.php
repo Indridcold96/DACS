@@ -83,6 +83,12 @@
 					echo "<hr>";
 				}
 				?>
+			</div>
+			<div class ="divcomments">
+				<?php
+					comment_form();
+				?>
+				
 			</div>	
 		</div>
 	</body>
