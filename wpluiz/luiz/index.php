@@ -59,7 +59,13 @@
 
 		h1 {
 			font-family: monsterhunterfont;
-			font-size: 20px;
+			font-size: 50px;
+			color:	#D5AD6D; /*if no support for background-clip*/
+			background: -webkit-linear-gradient(transparent, transparent),
+             -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+			background: -o-linear-gradient(transparent, transparent);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 		}
 		.main {
 			display: -webkit-flex;
@@ -75,7 +81,7 @@
 		</style>
 	</head>
 	<body>
-	<h1 style="color:Silver ;" >Bem Vindo, o pequeno Rathalos vai te guiar</h1>
+	<h1>Bem Vindo, o pequeno Rathalos vai te guiar</h1>
 		<div class="main">
 			<div>
 				<?php
